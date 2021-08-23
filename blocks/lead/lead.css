@@ -1,0 +1,8 @@
+.lead {
+    color: #fff;
+    align-items: center;
+    min-width: 320px;
+    margin: 0 auto;
+    padding-top: 45px;
+    box-sizing: border-box;
+  }
