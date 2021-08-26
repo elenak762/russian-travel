@@ -1,0 +1,30 @@
+.cover{
+  margin: 0 auto;
+  max-width: 1184px;
+  min-height: 740px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	position: relative;
+}
+
+
+/*@media (min-width: 768px) {
+    .cover {
+      min-height: 480px;
+      margin-top: 90px;
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .cover {
+      min-height: 640px;
+      margin-top: 95px;
+    }
+  }
+  @media (min-width: 1280px) {
+    .cover {
+      min-height: 740px;
+      padding-bottom: 0;
+    }
+  }*/
