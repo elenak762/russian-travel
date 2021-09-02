@@ -1,8 +1,31 @@
 .lead {
-    color: #fff;
-    align-items: center;
-    min-width: 320px;
-    margin: 0 auto;
-    padding-top: 56px;
-    box-sizing: border-box;
+  color: #fff;
+  align-items: center;
+  width: 984px;
+  max-width: 100%;
+  margin: 0 auto;
+  margin-top: 56px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width: 1024px) {
+  .lead {
+    min-width: 928px;
   }
+}
+
+@media (max-width: 768px) {
+  .lead {
+    min-width: 768px;
+    padding-top: 48px;
+  }
+}
+
+@media (max-width: 320px) {
+  .lead {
+    min-width: 320px;
+    padding-top: 45px;
+  }
+}

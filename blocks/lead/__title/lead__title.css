@@ -2,8 +2,17 @@
   margin: 0 auto;
   text-align: center;
   max-width: 720px;
-  min-width: 288px;
-  line-height: 1.1;
+  line-height: 102px;
   font-weight: 900;
   font-size: 96px;
+}
+
+@media (max-width: 768px) {
+  .lead__title {
+    min-width: 288px;
+    font-size: 40px;
+    line-height: 1.04;
+    margin: 0 auto;
+    padding: 0 16px;
+  }
 }
