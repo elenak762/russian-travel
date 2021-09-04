@@ -4,7 +4,11 @@
     font-weight: 400;
     font-display: swap;
     src: url("../fonts/Inter-Regular.woff2") format("woff2"),
+<<<<<<< HEAD
          url("../fonts/Inter-Regular.woff") format("woff");
+=======
+         url("../fonts/Inter-Italic.woff") format("woff");
+>>>>>>> f783e3facb594b5f9bcd2bc93a5a2eaa4d980cf6
   }
   @font-face {
     font-family: 'Inter';
