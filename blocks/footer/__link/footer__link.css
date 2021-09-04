@@ -6,13 +6,9 @@
   margin-right: 0;
 }
 
-@media (max-width: 320px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .footer__link {
     margin-bottom: 18px;
     margin-right: 0;
   }
-}
-
-.footer__link:last-of-type {
-  margin-bottom: 48px;
 }
