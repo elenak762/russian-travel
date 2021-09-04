@@ -1,3 +1,9 @@
 .place__img {
   width: 100%;
 }
+
+@media (max-width: 768px){
+  .place__img{
+    margin-left: 8px;
+  }
+}
