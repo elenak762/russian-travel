@@ -15,8 +15,15 @@
 @media (max-width: 768px) {
   .place__title {
     padding: 0;
-    margin-left: 16px;
     font-size: 42px;
     line-height: 45px;
+  }
+}
+
+@media (max-width: 320px){
+  .place__title{
+    font-size: 32px;
+    line-height: 45px;
+    margin-left: 24px;
   }
 }

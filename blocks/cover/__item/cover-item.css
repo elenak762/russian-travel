@@ -1,6 +1,6 @@
 .cover__item {
   width: 100%;
-  min-height: 740px;
+  height: 740px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -8,4 +8,16 @@
   text-decoration: none;
   color: #fff;
   position: relative;
+}
+
+@media  screen and (min-width: 767px) and (max-width:1024px) {
+  .cover__item{
+    max-height: 640px;
+  } 
+}
+
+@media (max-width: 768px){
+  .cover__item{
+    max-height: 480px;
+  }
 }

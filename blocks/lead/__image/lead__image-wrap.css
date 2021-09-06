@@ -5,3 +5,9 @@
   height: auto;
   margin: 0 148px;
 }
+
+@media (max-width:1024px) {
+  .lead__image-wrap{
+    max-width: 928px;
+  }
+}

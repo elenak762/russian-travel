@@ -1,10 +1,10 @@
 .lead {
   color: #fff;
   align-items: center;
-  width: 984px;
+  min-width: 984px;
   max-width: 100%;
   margin: 0 auto;
-  margin-top: 56px;
+  padding-top: 56px;
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
@@ -13,6 +13,7 @@
 @media (max-width: 1024px) {
   .lead {
     min-width: 928px;
+    padding-top: 50px;
   }
 }
 
