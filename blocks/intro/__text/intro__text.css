@@ -7,13 +7,13 @@
   font-weight: 400;
 }
 
-@media (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .intro__text {
     max-width: 720px;
   }
 }
 
-@media (max-width: 320px) {
+@media screen and (max-width: 319px) {
   .intro__text {
     max-width: 288px;
   }

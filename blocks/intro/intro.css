@@ -2,25 +2,24 @@
   color: #fff;
   min-width: 288px;
   max-width: 690px;
-  margin: 92px 442px 0 150px;
-  box-sizing: border-box;
+  padding: 92px 442px 0 150px;
 }
 
-@media (max-width: 1024px) {
+@media screen and (max-width: 1023px) {
   .intro {
     width: 100%;
-    margin: 92px 48px 0;
+    padding: 92px 48px 0;
   }
 }
 
-@media (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .intro {
-    margin: 88px 24px 86px 24px;
+    padding: 88px 24px 86px 24px;
   }
 }
 
-@media (max-width: 320px) {
+@media screen and (max-width: 319px){
   .intro {
-    margin: 66px 24px;
+    padding: 66px 24px;
   }
 }
