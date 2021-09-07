@@ -4,8 +4,8 @@
   padding-top: 36px;
 }
 
-@media (max-width: 320px){
-  .intro__list{
+@media screen and (max-width: 767px) and (max-width: 320px) {
+  .intro__list {
     padding-top: 42px;
   }
 }

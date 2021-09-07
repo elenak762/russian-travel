@@ -6,8 +6,8 @@
   margin: 0 148px;
 }
 
-@media (max-width:1024px) {
-  .lead__image-wrap{
+@media screen and (max-width: 1279px) and (max-width: 1024px) {
+  .lead__image-wrap {
     max-width: 928px;
   }
 }
