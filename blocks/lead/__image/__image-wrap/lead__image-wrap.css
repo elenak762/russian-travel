@@ -1,13 +1,25 @@
 .lead__image-wrap {
   position: relative;
   width: 100%;
-  max-width: 984px;
+  min-width: 984px;
   height: auto;
   margin: 0 148px;
 }
 
-@media screen and (max-width: 1279px) and (max-width: 1024px) {
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
   .lead__image-wrap {
-    max-width: 928px;
+    min-width: 928px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px){
+  .lead__image-wrap {
+    min-width: 768px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px){
+  .lead__image-wrap {
+    min-width: 320px;
   }
 }

@@ -10,19 +10,19 @@
   position: relative;
 }
 
-@media screen and (max-width: 1279px) and (max-width: 1024px) {
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
   .cover__item {
     min-height: 640px;
   }
 }
 
-@media screen and (max-width: 1023px) and (max-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1023px) {
   .cover__item {
     min-height: 480px;
   }
 }
 
-@media screen and (max-width: 767px) and (max-width: 320px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .cover__item {
     min-height: 200px;
   }

@@ -8,7 +8,7 @@
   margin-bottom: 16px;
 }
 
-@media screen and (max-width: 767px) and (max-width: 320px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .place__url {
     margin-left: 16px;
   }
