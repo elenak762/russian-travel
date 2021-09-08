@@ -2,7 +2,7 @@
   color: #fff;
   min-width: 288px;
   max-width: 690px;
-  padding: 81px 0 0 47px;
+  padding: 81px 0 0 148px;
 }
 
 @media screen and (max-width: 1279px) and (max-width: 1024px) {
@@ -20,6 +20,6 @@
 
 @media screen and (max-width: 767px) and (max-width: 320px) {
   .intro {
-    padding: 66px 24px;
+    padding: 70px 22px;
   }
 }

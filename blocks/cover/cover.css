@@ -18,6 +18,7 @@
   .cover {
     max-width: 768px;
     min-height: 480px;
+    margin-top: 66px;
   }
 }
 
@@ -25,6 +26,6 @@
   .cover {
     max-width: 320px;
     min-height: 200px;
-    margin-top: 96px;
+    margin-top: 48px;
   }
 }
